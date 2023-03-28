@@ -1,11 +1,11 @@
-;;; auto-header.el --- Automatically find the right headers  -*- lexical-binding: t; -*-
+;;; auto-header.el --- Automatically find the right C headers  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2022, 2023  Free Software Foundation, Inc.
 
 ;; Author: Philip Kaludercic <philipk@posteo.net>
 ;; Maintainer: Philip Kaludercic <~pkal/public-inbox@lists.sr.ht>
 ;; URL: https://git.sr.ht/~pkal/auto-header
-;; Version: 0.1.1
+;; Version: 0.1.2
 ;; Keywords: c
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -23,7 +23,7 @@
 
 ;;; Commentary:
 
-;; This script parses man-pages to guess what header files a function
+;; This script parses man-pages to guess what C header files a function
 ;; might need.
 
 ;; Bind `auto-header-at-point' to a convenient key if you want to
